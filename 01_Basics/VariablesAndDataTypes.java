@@ -80,6 +80,6 @@ public class VariablesAndDataTypes {
         double area = PI * radius * radius;
 
         // Output:- "Area of circle with radius 5.0cm is : 78.5cm^2"
-        System.out.print("Area of circle with radius " +radius+ "cm is : " +area+ "cm^2");
+        System.out.print("\nArea of circle with radius " +radius+ "cm is : " +area+ "cm^2");
     }
 }
