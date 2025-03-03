@@ -4,7 +4,8 @@
 // Class declaration: The class name should match the filename (HelloWorld.java).
 public class HelloWorld {
 
-    // The main method: This is the entry point of every Java application,.
+    // The main method: This is the entry point of every Java application.
+    // It is executed automatically when the program runs.
     public static void main(String[] args) {
 
         // Printing "Radhe Radhe!" to the console.

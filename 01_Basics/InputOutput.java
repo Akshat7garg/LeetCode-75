@@ -23,15 +23,15 @@ public class InputOutput {
 
 
         // Taking a single-word input (like a name).
-        System.out.print("Enter you name : ");
+        System.out.print("Enter your name : ");
         String name = sc.next();  // Reads only one word (stops at space).
 
         // Taking an integer input (like age).
         System.out.print("Enter your age : ");
         int age = sc.nextInt();  // Reads an integer value.
 
-        // Handling a common issue: When we use nextInt(), it does not consume the newline character,
-        // So, we add an extra nextLine() to "clear" it before taking a full line input.
+        // Handling a common issue: After nextInt(), there is a leftover newline character in the buffer.
+        // We use nextLine() to consume it before taking a full sentence input.
         sc.nextLine();
 
         // Taking a full sentence input (like hobbies).
@@ -44,7 +44,7 @@ public class InputOutput {
          * Java provides multiple ways to display output:
          * 
          * 1) System.out.print() - Prints output without a new line,
-         * 2) System.out.println() - Prints output ans moves to a new line,
+         * 2) System.out.println() - Prints output and moves to a new line,
          * 3) System.out.printf() - Allows formatted output (similar to C/C++).
          * 
          * Here, we are using System.out.print() for inline output.

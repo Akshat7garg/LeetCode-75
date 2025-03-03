@@ -1,4 +1,4 @@
-// This program demonstrates the use of variables, data types, and constants in Java.
+// This program demonstrates the use of variables, data types and constants in Java.
 
 public class VariablesAndDataTypes {
     public static void main(String[] args) {
@@ -22,10 +22,10 @@ public class VariablesAndDataTypes {
 
 
         // DATA TYPES
-        // Data types defines the type and size if data that can be stored in a variable.
+        // Data types defines the type and size of data that can be stored in a variable.
 
         /*
-         * There are 2 types of data types id Java:
+         * There are 2 types of data types in Java:
          * 
          * 1) Primitive Data Type : Stores simple values,
          * 2) Non-Primitive Data Type : Stores complex values.
@@ -62,10 +62,7 @@ public class VariablesAndDataTypes {
         String country = new String("India");  // String (text)
 
         // Array - Collection of integers.
-        int nums[] = new int[3];  // Declaring an integer array of size 3.
-        nums[0] = 6;
-        nums[1] = 11;
-        nums[2] = 15;
+        int nums[] = new int[] {6, 11, 13};  // Declaring an integer array of size 3.
 
 
         // CONSTANTS

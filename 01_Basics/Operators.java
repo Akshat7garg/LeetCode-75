@@ -5,7 +5,7 @@
  * 
  * 1) Arithmetic Operators: Perform basic mathematical operations.
  * 2) Increment & Decrement Operators: Increase or Decrease value.
- * 3) Relational (Comparison) Operator: Compare two values.
+ * 3) Relational (Comparison) Operators: Compare two values.
  * 4) Logical Operators: Perform logical operations.
  * 5) Assignment Operators: Assign and modify values.
  * 
@@ -73,7 +73,7 @@ public class Operators {
 
         int x = 10, y = 20;
 
-        System.out.println("Relational (Comparison) Operator: \n");
+        System.out.println("Relational (Comparison) Operators: \n");
 
         // Equal to (==) -> Returns true if both values are equal
         System.out.println("x == y: " + (x == y)); // false
@@ -102,7 +102,7 @@ public class Operators {
 
         boolean bool1 = true, bool2 = false;
 
-        System.out.println("Logical Operator: \n");
+        System.out.println("Logical Operators: \n");
 
         // Logical AND (&&) -> Returns true if both conditions are true
         System.out.println("bool1 AND bool2: " + (bool1 && bool2)); // false
@@ -122,7 +122,7 @@ public class Operators {
 
         int value = 10;
         
-        System.out.println("Assignment Operator: ");
+        System.out.println("Assignment Operators: ");
         System.out.println("Initial value: " + value); // 10
 
         // += (Addition Assignment) -> Adds and assigns the value

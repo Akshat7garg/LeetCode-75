@@ -8,16 +8,16 @@ public class Maths {
         // ****************************************
 
         /*
-         * Java provides the Math class, which contains useful mathametical functions.
+         * Java provides the Math class, which contains useful mathematical functions.
          * These functions can perform calculations like min/max values, power, square root, absolute values, etc.
          */
         
         //  Finding the Maximum value
-        int maximum = Math.max(5, 10);  // Returns the larger number between 5 ans 10
+        int maximum = Math.max(5, 10);  // Returns the larger number between 5 and 10
         System.out.println("Maximum : " +maximum);  // Output:- "10"
 
         //  Finding the Minimum value
-        int minimum = Math.min(3, -3);  // Returns the smaller number between 3 ans -3
+        int minimum = Math.min(3, -3);  // Returns the smaller number between 3 and -3
         System.out.println("Minimum : " +minimum);  // Output:- "-3"
 
         // Calculating the Square Root
@@ -26,7 +26,7 @@ public class Maths {
 
         // Getting the Absolute Value (Positive value)
         int positive = Math.abs(-56);  // Converts -56 to positive (absolute value)
-        System.out.println("Positive : " +positive);  // Output:- "56"
+        System.out.println("Absolute Value : " +positive);  // Output:- "56"
 
         // Generating a Random Number (Between 0 to 100)
         int random = (int) (Math.random() * 101);
