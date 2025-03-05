@@ -8,6 +8,7 @@
  * 3) Relational (Comparison) Operators: Compare two values.
  * 4) Logical Operators: Perform logical operations.
  * 5) Assignment Operators: Assign and modify values.
+ * 6) Ternary (Conditional) Operator: Compare values.
  * 
  * Each section contains examples to illustrate the use of these operators in Java.
  */
@@ -55,7 +56,7 @@ public class Operators {
         System.out.println("After Post-Increment: " + a); // Output: 6
 
         // Pre-Increment (++a) -> Increments first, then returns the value
-        System.out.println("Pre-Increment: " + (++a)); // Output: 7
+        System.out.println("Pre-Increment: " + (++a) + "\n"); // Output: 7
 
         // Post-Decrement (a--) -> Returns the value first, then decrements
         System.out.println("Post-Decrement: " + (a--)); // Output: 7
@@ -67,7 +68,7 @@ public class Operators {
 
 
         // ****************************************
-        // 3. RELATIONAL (COMPARISON) OPERATORS
+        // RELATIONAL (COMPARISON) OPERATORS
         // ****************************************
         // These operators compare values and return true or false.
 
@@ -96,7 +97,7 @@ public class Operators {
 
 
         // ****************************************
-        // 4. LOGICAL OPERATORS
+        // LOGICAL OPERATORS
         // ****************************************
         // These operators are used for decision-making and combining conditions.
 
@@ -116,13 +117,13 @@ public class Operators {
 
 
         // ****************************************
-        // 6. ASSIGNMENT OPERATORS
+        // ASSIGNMENT OPERATORS
         // ****************************************
         // These operators assign values to variables.
 
         int value = 10;
         
-        System.out.println("Assignment Operators: ");
+        System.out.println("Assignment Operators: \n");
         System.out.println("Initial value: " + value); // 10
 
         // += (Addition Assignment) -> Adds and assigns the value
@@ -144,5 +145,29 @@ public class Operators {
         // %= (Modulus Assignment) -> Assigns the remainder of division
         value %= 5;  // value = value % 5
         System.out.println("After %= : " + value); // 1
+        System.out.println("\n----------------------------------\n");
+
+
+        // ****************************************
+        // Ternary (Conditional) Operator
+        // ****************************************
+        // The ternary operator (? :) is a shorthand for an if-else statement.
+        // Syntax: condition ? value_if_true : value_if_false;
+
+        System.out.println("Ternary (Conditional) operator: \n");
+
+        // Example 1: Comparing two numbers and determining the greater one.
+        int num3 = 8, num4 = 10;
+
+        // If num3 is greater than num4, store "num3 is greater", otherwise store "num4 is greater".
+        String result = (num3 > num4) ? "num3 is greater" : "num4 is greater";
+        System.out.println("Example one solution: " +result + "\n");  // Output: "num4 is greater" (since 10 > 8)
+
+        // Example 2: Checking voting eligibility based on age.
+        int age = 19;
+
+        // If age is 18 or more, return "Eligible for vote", otherwise return "Not eligible for vote".
+        String answer = (age >= 18) ? "Eligible for vote" : "Not eligible for vote";
+        System.out.println("Example two solution: " +answer);  // Output: "Eligible for vote" (since 19 >= 18)
     }
 }

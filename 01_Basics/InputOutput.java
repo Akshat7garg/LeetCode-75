@@ -35,7 +35,7 @@ public class InputOutput {
         sc.nextLine();
 
         // Taking a full sentence input (like hobbies).
-        System.out.print("Enter you hobbies in one line : ");
+        System.out.print("Enter your hobbies in one line : ");
         String desc = sc.nextLine();  // Reads the whole line, including spaces.
 
 
@@ -52,7 +52,7 @@ public class InputOutput {
 
 
         // Displaying user input with formatted output.
-        System.out.print("Your name is '" +name+ "', you are '" +age+ "' years old and you hobby is '" +desc+ "'");
+        System.out.print("Your name is '" +name+ "', you are '" +age+ "' years old and your hobby is '" +desc+ "'");
 
         // Closing the Scanner object to prevent resource leaks.
         sc.close();
