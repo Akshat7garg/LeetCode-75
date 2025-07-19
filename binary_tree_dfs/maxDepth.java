@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     public int findDepth(TreeNode root) {
         if (root == null) {

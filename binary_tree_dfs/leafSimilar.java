@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     public ArrayList<Integer> leaf = new ArrayList<>();
     public int index = 0;
